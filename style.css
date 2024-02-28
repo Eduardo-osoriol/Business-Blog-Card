@@ -1,0 +1,92 @@
+
+body {
+    margin: 0;
+    background-color: #F2F5F9;
+    padding: 5rem 1rem; /*Esta linea realizo el ajustado al centro de la pagina*/
+    max-width: 400px;
+    margin: auto;
+}
+.container{
+    width: 450px;
+    margin: 0 auto;
+    
+}
+
+div {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+
+
+.imagencentral {
+    border-radius: 15px;  
+} 
+
+/* Este es el codigo que permite el efecto wave *cambiar el html absolute*/
+#imagen-wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight:  300 ;
+    font-style: normal;
+    font-size: 24px;
+    margin: 0;
+    padding: 0rem 0rem 0rem 2rem;
+}
+
+
+#contenido {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    color: #677489;
+    padding: 0rem 0rem 1rem 2rem;
+}
+
+.usuario {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1px;
+    padding: 0rem 0rem 1rem 2rem
+
+}
+.container #avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 4px solid #F2F5F9;
+}
+
+.container ul {
+    list-style-type: none;
+    padding: 0rem 0rem 0rem 1rem
+}
+
+.container ul li:first-child {
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    
+}
+
+.container ul li:nth-child(2) {
+    color: #677489;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+}
+
+@media (min-width: 640px) {
+    body {
+        padding: 0;
+        display: grid;
+        place-items: center;
+        height: 100vh;
+    }
+}
